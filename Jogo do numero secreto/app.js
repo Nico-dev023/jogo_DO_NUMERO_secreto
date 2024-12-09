@@ -60,7 +60,7 @@ function LimparCampo(){
     chute = document.querySelector('input');
     chute.value = '';
 }
-function ReiniciarJogo(){
+function reiniciarJogo(){
     NumeroSecreto = gerarNumeroAleatorio();
     LimparCampo();
     Tentativas = 1;
