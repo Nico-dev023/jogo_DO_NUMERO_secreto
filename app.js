@@ -11,7 +11,7 @@ function exibirTextonaTela (tag,texto){
 
 function exibirMensagemInicial(){
     exibirTextonaTela('h1', 'jogo do numero secreto');
-    exibirTextonaTela('p', 'Escolha um numero de 1 a 100');
+    exibirTextonaTela('p', 'Escolha um numero de 1 a 50');
 }
 
 exibirMensagemInicial();
